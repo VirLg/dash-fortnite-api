@@ -1,6 +1,6 @@
 import API from './js/servise-api'
 
-const Api = new API.DashFortnite();
+const Api = new API.DashFortnite;
 
 console.log(Api);
 

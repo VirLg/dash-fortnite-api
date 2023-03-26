@@ -1,5 +1,4 @@
-
-
+import axios from "axios";
 class DashFortnite {
 
     // BASE_URL = 'https://fortnite-api.com/v1/playlists/',
@@ -7,7 +6,7 @@ class DashFortnite {
     async fetchApi(params) {
         
         
-            return await fetch('https://fortnite-api.com/v1/playlists/');
+            return axios('https://fortnite-api.com/v1/playlists/');
     
        
     }
